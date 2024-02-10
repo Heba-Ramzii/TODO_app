@@ -43,21 +43,6 @@ class HomeLayout extends StatelessWidget {
                             title: titleController.text,
                             time: timeController.text,
                             date: dateController.text,);
-                        // insertToDatabase(
-                        //   title: titleController.text,
-                        //   date: dateController.text,
-                        //   time: timeController.text,
-                        // ).then((value) {
-                        //   getDataFromDatabase(database).then((value) {
-                        //     Navigator.pop(context);
-                        //     // setState(() {
-                        //     //   isBottomSheetShown = false;
-                        //     //   fabIcon = Icons.edit;
-                        //     //   tasks = value;
-                        //     //   print(tasks);
-                        //     // });
-                        //   });
-                        // });
                       }
                     }
                     else {
